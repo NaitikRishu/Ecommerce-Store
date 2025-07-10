@@ -1,0 +1,722 @@
+[
+  {
+    "id": "h1",
+    "title": "Omega-3 #1",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 483.77,
+    "rating": 4.9,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h2",
+    "title": "Herbal Tea #2",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 171.4,
+    "rating": 3.9,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h3",
+    "title": "Zinc Tablets #3",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 479.05,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h4",
+    "title": "Vitamin C #4",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 424.98,
+    "rating": 3.9,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h5",
+    "title": "Protein Shake #5",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 284.46,
+    "rating": 4.8,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h6",
+    "title": "Herbal Tea #6",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 741.79,
+    "rating": 4.5,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h7",
+    "title": "Vitamin C #7",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 574.86,
+    "rating": 4.5,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h8",
+    "title": "Vitamin C #8",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1059.69,
+    "rating": 3.8,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h9",
+    "title": "Zinc Tablets #9",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1439.87,
+    "rating": 4.2,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h10",
+    "title": "Zinc Tablets #10",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 354.77,
+    "rating": 4.5,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h11",
+    "title": "Protein Shake #11",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 616.73,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h12",
+    "title": "Protein Shake #12",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1298.74,
+    "rating": 4.1,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h13",
+    "title": "Protein Shake #13",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 747.68,
+    "rating": 4.9,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h14",
+    "title": "Omega-3 #14",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 987.36,
+    "rating": 3.8,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h15",
+    "title": "Zinc Tablets #15",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 747.8,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h16",
+    "title": "Vitamin C #16",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1239.05,
+    "rating": 4.3,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h17",
+    "title": "Herbal Tea #17",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1178.57,
+    "rating": 3.7,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h18",
+    "title": "Zinc Tablets #18",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 733.08,
+    "rating": 4.1,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h19",
+    "title": "Zinc Tablets #19",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1140.74,
+    "rating": 4.2,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "h20",
+    "title": "Zinc Tablets #20",
+    "description": "Boost your health with this top-quality supplement.",
+    "category": "health",
+    "price": 1205.77,
+    "rating": 4.3,
+    "emoji": "\ud83d\udc8a"
+  },
+  {
+    "id": "f1",
+    "title": "Designer Dress #1",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1297.58,
+    "rating": 3.9,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f2",
+    "title": "Leather Jacket #2",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 161.66,
+    "rating": 4.0,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f3",
+    "title": "Smartwatch Band #3",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 761.38,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f4",
+    "title": "Leather Jacket #4",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 574.76,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f5",
+    "title": "Running Shoes #5",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 521.17,
+    "rating": 3.9,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f6",
+    "title": "Designer Dress #6",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 491.24,
+    "rating": 4.5,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f7",
+    "title": "Sunglasses #7",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1240.25,
+    "rating": 4.2,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f8",
+    "title": "Leather Jacket #8",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 299.57,
+    "rating": 4.5,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f9",
+    "title": "Running Shoes #9",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1182.19,
+    "rating": 4.2,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f10",
+    "title": "Leather Jacket #10",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1040.13,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f11",
+    "title": "Leather Jacket #11",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 401.53,
+    "rating": 4.3,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f12",
+    "title": "Running Shoes #12",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1173.09,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f13",
+    "title": "Designer Dress #13",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1062.66,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f14",
+    "title": "Designer Dress #14",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 999.78,
+    "rating": 5.0,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f15",
+    "title": "Running Shoes #15",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 16.04,
+    "rating": 5.0,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f16",
+    "title": "Running Shoes #16",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 937.28,
+    "rating": 4.8,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f17",
+    "title": "Running Shoes #17",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1393.51,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f18",
+    "title": "Sunglasses #18",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 616.32,
+    "rating": 4.1,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f19",
+    "title": "Sunglasses #19",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 1257.47,
+    "rating": 3.8,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "f20",
+    "title": "Running Shoes #20",
+    "description": "Upgrade your style with this premium fashion item.",
+    "category": "fashion",
+    "price": 950.0,
+    "rating": 4.8,
+    "emoji": "\ud83d\udc57"
+  },
+  {
+    "id": "m1",
+    "title": "Power Bank #1",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 1023.84,
+    "rating": 3.7,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m2",
+    "title": "Wireless Earbuds #2",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 333.2,
+    "rating": 4.2,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m3",
+    "title": "Tablet Pro #3",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 170.18,
+    "rating": 4.0,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m4",
+    "title": "Power Bank #4",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 301.69,
+    "rating": 3.6,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m5",
+    "title": "Smartwatch Z #5",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 727.78,
+    "rating": 4.7,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m6",
+    "title": "Smartwatch Z #6",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 571.41,
+    "rating": 4.4,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m7",
+    "title": "Tablet Pro #7",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 1312.1,
+    "rating": 4.2,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m8",
+    "title": "Wireless Earbuds #8",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 1401.14,
+    "rating": 4.8,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m9",
+    "title": "Smartphone X #9",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 104.39,
+    "rating": 5.0,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m10",
+    "title": "Wireless Earbuds #10",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 328.11,
+    "rating": 4.9,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m11",
+    "title": "Tablet Pro #11",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 160.33,
+    "rating": 3.8,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m12",
+    "title": "Tablet Pro #12",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 667.95,
+    "rating": 4.4,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m13",
+    "title": "Smartphone X #13",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 1270.76,
+    "rating": 3.9,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m14",
+    "title": "Wireless Earbuds #14",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 861.99,
+    "rating": 3.6,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m15",
+    "title": "Smartphone X #15",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 144.24,
+    "rating": 4.2,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m16",
+    "title": "Smartphone X #16",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 800.62,
+    "rating": 4.8,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m17",
+    "title": "Smartwatch Z #17",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 735.67,
+    "rating": 4.7,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m18",
+    "title": "Power Bank #18",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 1279.99,
+    "rating": 4.3,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m19",
+    "title": "Smartphone X #19",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 135.48,
+    "rating": 4.3,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "m20",
+    "title": "Wireless Earbuds #20",
+    "description": "Latest tech with sleek design and great performance.",
+    "category": "mobile",
+    "price": 1427.38,
+    "rating": 3.8,
+    "emoji": "\ud83d\udcf1"
+  },
+  {
+    "id": "l1",
+    "title": "Gold Watch #1",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 435.0,
+    "rating": 3.8,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l2",
+    "title": "Luxury Perfume #2",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 1259.38,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l3",
+    "title": "Silk Scarf #3",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 106.99,
+    "rating": 4.8,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l4",
+    "title": "Chanel Bag #4",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 486.92,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l5",
+    "title": "Gold Watch #5",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 114.77,
+    "rating": 3.7,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l6",
+    "title": "Silk Scarf #6",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 1341.12,
+    "rating": 4.9,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l7",
+    "title": "Diamond Ring #7",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 886.8,
+    "rating": 4.0,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l8",
+    "title": "Diamond Ring #8",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 969.36,
+    "rating": 3.9,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l9",
+    "title": "Chanel Bag #9",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 242.45,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l10",
+    "title": "Chanel Bag #10",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 784.09,
+    "rating": 4.1,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l11",
+    "title": "Silk Scarf #11",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 877.7,
+    "rating": 4.0,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l12",
+    "title": "Luxury Perfume #12",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 347.58,
+    "rating": 3.7,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l13",
+    "title": "Gold Watch #13",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 983.52,
+    "rating": 3.8,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l14",
+    "title": "Gold Watch #14",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 1164.0,
+    "rating": 4.0,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l15",
+    "title": "Silk Scarf #15",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 883.93,
+    "rating": 4.4,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l16",
+    "title": "Chanel Bag #16",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 158.54,
+    "rating": 4.6,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l17",
+    "title": "Diamond Ring #17",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 832.48,
+    "rating": 4.2,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l18",
+    "title": "Gold Watch #18",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 1099.9,
+    "rating": 4.0,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l19",
+    "title": "Luxury Perfume #19",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 101.03,
+    "rating": 4.8,
+    "emoji": "\ud83d\udc8e"
+  },
+  {
+    "id": "l20",
+    "title": "Diamond Ring #20",
+    "description": "Exclusive luxury product crafted with excellence.",
+    "category": "luxury",
+    "price": 1468.15,
+    "rating": 4.5,
+    "emoji": "\ud83d\udc8e"
+  }
+]

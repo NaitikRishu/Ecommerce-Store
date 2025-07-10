@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUXE - Premium Shopping Experience</title>
+    <title>AmazCart - Premium Shopping Experience</title>
     <!-- Correct -->
 <!-- ✅ Correct way -->
 <link rel="stylesheet" href="/css/style.css">
+<script src="/js/products.js"></script>
 <script src="/js/script.js" defer></script>
+
+
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +30,7 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
-            <div class="logo">LUXE</div>
+            <div class="logo">AmazCart</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#products">Products</a></li>
@@ -48,17 +51,39 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Experience Luxury Shopping</h1>
-            <p class="hero-subtitle">Discover premium products with cutting-edge technology and unmatched quality</p>
-            <button class="cta-button" id="shopNowBtn">Shop Now</button>
-        </div>
-        <div class="hero-visual">
+    <main id="app"></main>
             <div class="floating-product">📱</div>
             <div class="floating-product">💎</div>
             <div class="floating-product">👑</div>
+        </div>
+    </section>
+
+    <!-- Category Section (Glassmorphic) -->
+    <section id="categories" class="categories-section">
+        <div class="categories-container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card glass">
+                    <div class="category-icon">💊</div>
+                    <div class="category-title">Health</div>
+                </div>
+                <div class="category-card glass">
+                    <div class="category-icon">👗</div>
+                    <div class="category-title">Fashion</div>
+                </div>
+                <div class="category-card glass">
+                    <div class="category-icon">📱</div>
+                    <div class="category-title">Mobile</div>
+                </div>
+                <div class="category-card glass">
+                    <div class="category-icon">💎</div>
+                    <div class="category-title">Luxury</div>
+                </div>
+                <div class="category-card glass">
+                    <div class="category-icon">🛒</div>
+                    <div class="category-title">All</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -89,24 +114,12 @@
     </section>
 
     <!-- Products Section -->
-    <section id="products" class="products-section">
-        <div class="products-container">
-            <div class="loading-skeleton" id="loadingSkeleton">
-                <div class="skeleton-card"></div>
-                <div class="skeleton-card"></div>
-                <div class="skeleton-card"></div>
-                <div class="skeleton-card"></div>
-            </div>
-            <div class="product-grid" id="productGrid">
-                <!-- Products will be dynamically loaded here -->
-            </div>
-        </div>
-    </section>
+    <!-- Removed product grid and replaced with categories above -->
 
     <!-- Features Section -->
     <section class="features">
         <div class="features-container">
-            <h2>Why Choose LUXE?</h2>
+            <h2>Why Choose AmazCart?</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">🚚</div>
@@ -177,7 +190,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h4>LUXE</h4>
+                <h4>AmazCart</h4>
                 <p>Premium shopping experience with unmatched quality and service.</p>
                 <div class="social-links">
                     <a href="#" class="social-link">📘</a>
@@ -214,7 +227,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 LUXE. All rights reserved.</p>
+            <p>&copy; 2025 AmazCart. All rights reserved.</p>
         </div>
     </footer>
 
