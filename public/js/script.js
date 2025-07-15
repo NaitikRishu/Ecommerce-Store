@@ -44,7 +44,9 @@ function renderCarousel() {
     if (!carousel) return;
     carousel.innerHTML = `
       <div class="carousel-slide glass">
-        <img src="${featured[idx].image}" alt="${featured[idx].name}" class="carousel-img" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'180\' height=\'180\'><rect width=\'100%\' height=\'100%\' fill=\'#f0f0f0\'/><text x=\'50%\' y=\'50%\' font-size=\'18\' text-anchor=\'middle\' fill=\'#bbb\' dy=\'.3em\'>No Image</text></svg>'" />
+        <div class="carousel-img-box">
+          <img src="${featured[idx].image}" alt="${featured[idx].name}" class="carousel-img" />
+        </div>
         <div class="carousel-info">
           <h3>${featured[idx].name}</h3>
           <p>${featured[idx].description}</p>
@@ -53,6 +55,22 @@ function renderCarousel() {
         </div>
       </div>
     `;
+    // Attach fallback to dynamically inserted carousel image
+    const img = carousel.querySelector('img');
+    if (img) {
+      img.onerror = function () {
+        this.onerror = null;
+        this.src = "data:image/svg+xml;utf8," +
+          encodeURIComponent(`
+            <svg xmlns='http://www.w3.org/2000/svg' width='320' height='280' viewBox='0 0 320 280'>
+              <rect width='100%' height='100%' rx='16' fill='#f3f4f6'/>
+              <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='#999' font-size='16'>
+                Image not available
+              </text>
+            </svg>
+          `);
+      };
+    }
   }
 
   window.nextCarouselSlide = function() {
@@ -70,6 +88,24 @@ function renderCarousel() {
       window.nextCarouselSlide();
     }, 4000);
   }, 100);
+
+  // Attach fallback to all images in the carousel area after initial render
+  setTimeout(() => {
+    document.querySelectorAll('#carouselSlides img').forEach(img => {
+      img.onerror = function () {
+        this.onerror = null;
+        this.src = "data:image/svg+xml;utf8," +
+          encodeURIComponent(`
+            <svg xmlns='http://www.w3.org/2000/svg' width='320' height='280' viewBox='0 0 320 280'>
+              <rect width='100%' height='100%' rx='16' fill='#f3f4f6'/>
+              <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='#999' font-size='16'>
+                Image not available
+              </text>
+            </svg>
+          `);
+      };
+    });
+  }, 200);
 
   return `
     <div class="carousel-container">
@@ -181,7 +217,7 @@ function renderProduct(id) {
   app.innerHTML = `
     <section class="product-detail-section">
       <div class="product-detail-card glass">
-        <img src="${p.image}" alt="${p.name}" class="product-detail-img" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'180\' height=\'180\'><rect width=\'100%\' height=\'100%\' fill=\'#f0f0f0\'/><text x=\'50%\' y=\'50%\' font-size=\'18\' text-anchor=\'middle\' fill=\'#bbb\' dy=\'.3em\'>No Image</text></svg>'" />
+        <img src="${p.image}" alt="${p.name}" class="product-detail-img" />
         <div class="product-detail-info">
           <h2>${p.name}</h2>
           <p>${p.description}</p>
@@ -282,7 +318,7 @@ function cartItemCard(item) {
   
   return `
     <div class="cart-item glass">
-      <img src="${item.image}" alt="${item.name}" class="cart-item-img" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'180\' height=\'180\'><rect width=\'100%\' height=\'100%\' fill=\'#f0f0f0\'/><text x=\'50%\' y=\'50%\' font-size=\'18\' text-anchor=\'middle\' fill=\'#bbb\' dy=\'.3em\'>No Image</text></svg>'" />
+      <img src="${item.image}" alt="${item.name}" class="cart-item-img" />
       <div class="cart-item-details">
         <h3>${item.name}</h3>
         <p class="price">$${item.price} each</p>
@@ -306,9 +342,9 @@ function cartItemCard(item) {
 function productCard(product) {
   return `
     <div class="product-card glass">
-      <div class="product-img-box">
-  <img src="${product.image}" alt="${product.name}" class="product-img" onclick="location.hash='product/${product.id}'" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'180\' height=\'180\'><rect width=\'100%\' height=\'100%\' fill=\'#f0f0f0\'/><text x=\'50%\' y=\'50%\' font-size=\'18\' text-anchor=\'middle\' fill=\'#bbb\' dy=\'.3em\'>No Image</text></svg>'" />
-</div>
+      <div class="product-image">
+        <img src="${product.image}" alt="${product.name}" onclick="location.hash='product/${product.id}'" />
+      </div>
       <div class="product-info">
     <p class="product-category"><b>Category:</b> ${product.category}</p>
     <p class="product-instock">${product.inStock ? '<span style=\'color:green\'>In Stock</span>' : '<span style=\'color:red\'>Out of Stock</span>'}</p>
@@ -531,3 +567,44 @@ document.documentElement.style.setProperty('--accent', '#43cea2');
 document.documentElement.style.setProperty('--gradient', 'linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%)');
 document.documentElement.style.setProperty('--gradient-3', 'linear-gradient(135deg, #43cea2 0%, #185a9d 100%)');
 // --- End SPA Script ---
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Global image fallback for all images
+  const fallbackSVG = encodeURIComponent(`
+    <svg xmlns='http://www.w3.org/2000/svg' width='320' height='280' viewBox='0 0 320 280'>
+      <rect width='100%' height='100%' rx='16' fill='#f3f4f6'/>
+      <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='#999' font-size='16'>
+        Image not available
+      </text>
+    </svg>
+  `);
+  document.querySelectorAll('#app img, .product-image img, .cart-item-img, .product-detail-img').forEach(img => {
+    img.onerror = function () {
+      this.onerror = null;
+      this.src = "data:image/svg+xml;utf8," + fallbackSVG;
+    };
+  });
+
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      navLinks.classList.toggle('active');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+        navLinks.classList.remove('active');
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768) {
+        navLinks.classList.remove('active');
+      }
+    });
+  }
+});
+
