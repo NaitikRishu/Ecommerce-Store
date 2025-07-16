@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>AmazCart - Premium Shopping Experience</title>
     <!-- Correct -->
 <!-- ✅ Correct way -->
@@ -16,6 +16,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+.logo-short { display: none !important; background: #00ff00 !important; color: #000 !important; }
+.logo-full { display: inline !important; background: #ff0000 !important; color: #fff !important; }
+@media (max-width: 768px) {
+  .logo-short { display: inline !important; }
+  .logo-full { display: none !important; }
+}
+</style>
 </head>
 <body>
     <!-- Background Animation -->
@@ -30,7 +38,7 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
-            <div class="logo">AmazCart</div>
+            <div class="logo"><span class="logo-full">AmazCart</span><span class="logo-short">AC</span></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#products">Products</a></li>
@@ -40,7 +48,7 @@
             <div class="nav-actions">
                 <div class="search-container">
                     <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
-                    <button class="search-btn">🔍</button>
+                    
                 </div>
                 <div class="cart-icon" id="cartIcon">
                     🛒
@@ -231,5 +239,17 @@
         </div>
     </footer>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (window.innerWidth <= 768) {
+    var logoFull = document.querySelector('.logo-full');
+    var logoShort = document.querySelector('.logo-short');
+    if(logoFull && logoShort){
+      logoFull.style.display = 'none';
+      logoShort.style.display = 'inline';
+    }
+  }
+});
+</script>
 </body>
 </html>
